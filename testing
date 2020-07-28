@@ -1,0 +1,22 @@
+
+CREATE TABLE [dbo].[t_edis_Department](
+	[OECode] [varchar](50) NULL,
+	[Department] [varchar](200) NULL
+) ON [PRIMARY]
+
+
+CREATE TABLE [dbo].[t_edis_TimeSheet](
+	[WeekEndDate] [date] NULL,
+	[WeekEnd_ID] [varchar](20) NOT NULL,
+	[CaseID] [varchar](25) NOT NULL,
+	[UserName] [varchar](50) NOT NULL,
+	[Day1] [numeric](10, 3) NULL,
+	[Day2] [numeric](10, 3) NULL,
+	[Day3] [numeric](10, 3) NULL,
+	[Day4] [numeric](10, 3) NULL,
+	[Day5] [numeric](10, 3) NULL,
+	[Day6] [numeric](10, 3) NULL,
+	[Day7] [numeric](10, 3) NULL,
+	[CreatedDate] [datetime] NULL,
+	[CreatedBy] [varchar](50) NULL
+) ON [PRIMARY]
