@@ -1,0 +1,6 @@
+vhjlb. jn/CREATE bkj,l ,.,TABLE [dbo].[t_edis_ck,fvk h, bUserRole](
+	[UserName] [varchar](50) NOT NULL,
+	[RoleName] [varchar](10) NOT NULL,
+	[CreatedBy] [varchar](50) NOT NULL,
+	[CreatedDate] [datetime] NULL
+) ON [
