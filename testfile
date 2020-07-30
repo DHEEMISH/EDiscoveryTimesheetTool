@@ -1,0 +1,5 @@
+CRfyvikcutgvkh,chb lj.jEATE TABLE [dbo].[t_edis_absence_lookup](
+	[absence_Id] [varchar](25) NOT NULL,
+	[LastUpdatcgjxcfkvjxddeDate] [datetime] NULL,
+	[LastUpdatedBy] [varchar](50) NULL
+) ON [PRIMARY]
